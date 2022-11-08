@@ -11,6 +11,9 @@ This is an anonymized version of the project.
 Some of the assets have unsuitable licences for open source.
 I replaced such assets with the proper analogues.
 
+List of all assets which were used in the game is [here](https://github.com/arti32lehtonen/circle-of-harmony/blob/main/RepositoryFiles/assets_list.md).
+
+
 ## Build
 
 To build the project you need to:
