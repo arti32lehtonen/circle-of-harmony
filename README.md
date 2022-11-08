@@ -4,7 +4,7 @@ This is a repository for the Version 1.1 of the game Circle Of Harmony.
 
 Game page: https://arti32lehtonen.itch.io/circle-of-harmony
 
-![Alt Text](RepositoryAssets/game_example.gif)
+![Alt Text](RepositoryFiles/game_example.gif)
 
 **Attention!**
 This is an anonymized version of the project.
