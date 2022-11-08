@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf783b7556e4938a7a9682dd6098245, type: 3}
+  m_Name: Bug
+  m_EditorClassIdentifier: 
+  id: 1
+  displayedName: Bug
+  hint: Gets   points   for  each   grass (2) .
+  image: {fileID: 21300000, guid: 47fffb3aec95fd044aac9d3109ee8174, type: 3}
+  hitPoints: 3
+  influenceArea:
+    gridSize: {x: 3, y: 3}
+    cellSize: {x: 16, y: 16}
+    cells:
+    - row: 000100
+    - row: 010001
+    - row: 010101
+  feedingOptions:
+  - entityToEat: 0
+    income:
+      damage: 1
+      score: 2
+  whatPlaceAfterDeath: {fileID: 0}

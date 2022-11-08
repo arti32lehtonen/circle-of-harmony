@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf783b7556e4938a7a9682dd6098245, type: 3}
+  m_Name: BigHerbivore
+  m_EditorClassIdentifier: 
+  id: 3
+  displayedName: Gazelle
+  hint: Gets   points   for  each   grass (2) .
+  image: {fileID: 21300000, guid: 6a0e3fff00f9b904aa0e80d9c52f6280, type: 3}
+  hitPoints: 3
+  influenceArea:
+    gridSize: {x: 5, y: 5}
+    cellSize: {x: 16, y: 16}
+    cells:
+    - row: 0000000000
+    - row: 0001010100
+    - row: 0100000001
+    - row: 0001010100
+    - row: 0000000000
+  feedingOptions:
+  - entityToEat: 0
+    income:
+      damage: 1
+      score: 2
+  whatPlaceAfterDeath: {fileID: 0}

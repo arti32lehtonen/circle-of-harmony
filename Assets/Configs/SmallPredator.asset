@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf783b7556e4938a7a9682dd6098245, type: 3}
+  m_Name: SmallPredator
+  m_EditorClassIdentifier: 
+  id: 4
+  displayedName: Hyena
+  hint: 'Gets   points   for  each   meerkat (3) ,
+
+    gazelle(2)   and   lion(1)
+    .'
+  image: {fileID: 21300000, guid: 0e38d7628c8e80547a24403ac7be97c6, type: 3}
+  hitPoints: 3
+  influenceArea:
+    gridSize: {x: 13, y: 13}
+    cellSize: {x: 16, y: 16}
+    cells:
+    - row: 01000000000000000000000001
+    - row: 00010000000000000000000100
+    - row: 00000100000000000000010000
+    - row: 00000001000000000001000000
+    - row: 00000000010000000100000000
+    - row: 00000000000100010000000000
+    - row: 00000000000000000000000000
+    - row: 00000000000100010000000000
+    - row: 00000000010000000100000000
+    - row: 00000001000000000001000000
+    - row: 00000100000000000000010000
+    - row: 00010000000000000000000100
+    - row: 01000000000000000000000001
+  feedingOptions:
+  - entityToEat: 2
+    income:
+      damage: 1
+      score: 3
+  - entityToEat: 3
+    income:
+      damage: 1
+      score: 2
+  - entityToEat: 5
+    income:
+      damage: 1
+      score: 1
+  whatPlaceAfterDeath: {fileID: 0}

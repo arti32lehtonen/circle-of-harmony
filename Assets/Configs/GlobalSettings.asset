@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a649f52c7eeb452da213562601949d90, type: 3}
+  m_Name: GlobalSettings
+  m_EditorClassIdentifier: 
+  influenceAreaSprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  influenceAreaColor: {r: 0, g: 0, b: 0, a: 0.4745098}
+  influenceAreaSortingLayer: Non-Interact Objects
+  specimenSortingLayer: Interact Objects
+  grassConfig: {fileID: 11400000, guid: 7151a96101c3a424f84f15ef2142c919, type: 2}
+  initialGrassProportion: 0.7
+  fieldInitializationConfigs:
+  - {fileID: 11400000, guid: 9b07442bb2a31dd49a52ef8c43178873, type: 2}
+  - {fileID: 11400000, guid: 0b08dbc7ec7193343b920497633b703b, type: 2}
+  - {fileID: 11400000, guid: cb489d94dce8fe5408184afcb8c3e56b, type: 2}
+  - {fileID: 11400000, guid: ee540d451dc11404c93bf061744b3e5d, type: 2}
+  - {fileID: 11400000, guid: 6fbede8e1f182334b84b3df6dd309e5c, type: 2}
+  - {fileID: 11400000, guid: b53f5d135282d4f4caea02d202701e65, type: 2}
+  startProgressPacks:
+  - configs:
+    - {fileID: 11400000, guid: 88b0e4ca89e78284cbb380cc58e56cd3, type: 2}
+  - configs:
+    - {fileID: 11400000, guid: 6778a8bb77ab3be40bb199f7b0313ad4, type: 2}
+    - {fileID: 11400000, guid: 4dddd55dc3ae7fb43a063f64d1c2f4da, type: 2}
+  - configs:
+    - {fileID: 11400000, guid: 5797ffc05cf9e5f4da9046c06e3cd6f9, type: 2}
+    - {fileID: 11400000, guid: a1cfdbd7ee4008d4e99125dd4ff8eef3, type: 2}
+  - configs:
+    - {fileID: 11400000, guid: c96a57b4672fc024393d835f372bdcf1, type: 2}
+    - {fileID: 11400000, guid: 08745f464aee1714f9557573abb54039, type: 2}
+  - configs:
+    - {fileID: 11400000, guid: eb01ee128ed0a964e85de0c593d6b615, type: 2}
+    - {fileID: 11400000, guid: 78910987c1184434f93cc9730cf6c2d1, type: 2}
+  progressPacks:
+  - specimenId: 0
+    importanceCoeff: 1
+    configs:
+      configs:
+      - {fileID: 11400000, guid: 160bd599c7dd37744baaefee5d6befe0, type: 2}
+      - {fileID: 11400000, guid: 439c09519f774ba468a8229daedc3f47, type: 2}
+  - specimenId: 1
+    importanceCoeff: 3
+    configs:
+      configs:
+      - {fileID: 11400000, guid: 2e73499fde7705941bec7145399a39eb, type: 2}
+      - {fileID: 11400000, guid: f0890419e2f5eb74a8d343581b00a5ba, type: 2}
+  - specimenId: 2
+    importanceCoeff: 4
+    configs:
+      configs:
+      - {fileID: 11400000, guid: f44805ac57f9689488c9995ba289b1c7, type: 2}
+      - {fileID: 11400000, guid: eba67bff09e7c7c40b1c43a2574e10dd, type: 2}
+  - specimenId: 3
+    importanceCoeff: 4.5
+    configs:
+      configs:
+      - {fileID: 11400000, guid: 34e6d52a48d5a624592ca63efca825cc, type: 2}
+      - {fileID: 11400000, guid: 8649b79eeb3785446bd84dde13566941, type: 2}
+  - specimenId: 4
+    importanceCoeff: 4
+    configs:
+      configs:
+      - {fileID: 11400000, guid: ed3fb4084dd07a845afc2a1acd8dcef5, type: 2}
+      - {fileID: 11400000, guid: f79cd875f8c2cf74c9d77d300553511c, type: 2}
+  - specimenId: 5
+    importanceCoeff: 4
+    configs:
+      configs:
+      - {fileID: 11400000, guid: 843c48b8c62da9141ba5acf243e0ad8d, type: 2}
+      - {fileID: 11400000, guid: d209113cd633c364ab0ec0e45894cbf8, type: 2}
+  huntersAppearanceProb:
+  - preyId: 0
+    hunterOptions:
+    - specimenId: 1
+      value: 0.11111
+    - specimenId: 3
+      value: 0.05555
+  - preyId: 1
+    hunterOptions:
+    - specimenId: 2
+      value: 0.1111
+    - specimenId: 0
+      value: 0.083325
+  - preyId: 2
+    hunterOptions:
+    - specimenId: 4
+      value: 0.08333
+    - specimenId: 0
+      value: 0.06249
+  - preyId: 3
+    hunterOptions:
+    - specimenId: 4
+      value: 0.041666
+    - specimenId: 5
+      value: 0.08333
+    - specimenId: 5
+      value: 0.01111
+    - specimenId: 0
+      value: 0.06249
+  - preyId: 4
+    hunterOptions:
+    - specimenId: 5
+      value: 0.038
+    - specimenId: 0
+      value: 0.08235
+  - preyId: 5
+    hunterOptions:
+    - specimenId: 0
+      value: 0.08325
+  averageSpecimenScores:
+  - specimenId: 0
+    value: 2
+  - specimenId: 1
+    value: 6
+  - specimenId: 2
+    value: 11
+  - specimenId: 3
+    value: 9
+  - specimenId: 4
+    value: 11
+  - specimenId: 5
+    value: 12
+  scoreComplexityCoeff: 0.9
+  scoreComplexityMultiplier: 1.1
+  hitPointsUIAnimationColor: {r: 1, g: 1, b: 1, a: 0.2901961}
+  hitPointsUIAnimationDelay: 0.3

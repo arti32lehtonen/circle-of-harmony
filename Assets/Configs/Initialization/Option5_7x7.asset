@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435b02ca2aed4991bdc00da4aa658aee, type: 3}
+  m_Name: Option5_7x7
+  m_EditorClassIdentifier: 
+  initializeSpecimen: {fileID: 11400000, guid: 7151a96101c3a424f84f15ef2142c919, type: 2}
+  initializationField:
+    gridSize: {x: 7, y: 7}
+    cellSize: {x: 16, y: 16}
+    cells:
+    - row: 01000001010101
+    - row: 01000101010001
+    - row: 01000100010001
+    - row: 01010001000101
+    - row: 01000101000001
+    - row: 00000001000000
+    - row: 01010100010101
